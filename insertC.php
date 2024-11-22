@@ -1,3 +1,5 @@
+<?php include_once 'php_action/create.php'; ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,7 +27,7 @@
                 <input type="text" id="cidade" name="cidade" placeholder="Insira sua Cidade" required>
             </div>
 
-            <button type="submit" class="btn">Cadastrar Cliente</button>
+            <button type="submit" class="btn" name="cadastrar">Cadastrar Cliente</button>
             
             <a class="botao-listar" href="index.php">Listar Clientes</a>
         </form>
