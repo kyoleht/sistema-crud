@@ -167,3 +167,27 @@ a:hover {
         width: 95%;
     }
 }
+
+.botao-listar {
+        background-color: white; 
+        color: #45a049; 
+        border: none; 
+        padding: 10px 20px;
+        font-size: 16px; 
+        font-family: Arial, sans-serif;
+        cursor: pointer; 
+        border-radius: 5px; 
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+        transition: background-color 0.3s ease; 
+        margin-top: 15px;  
+    }
+    
+.botao-listar:hover {
+        background-color: #555; 
+    }
+    
+.botao-listar:active {
+        background-color: #3e8e41; 
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); 
+        transform: translateY(2px); 
+    }
