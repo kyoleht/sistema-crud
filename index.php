@@ -47,7 +47,7 @@
             </tbody>
         </table>
 
-        <a href="./insertC.php"><button class="btn">Adicionar Cliente</button></a>
+        <a href="insertC.php"><button class="btn">Adicionar Cliente</button></a>
     </div>
 </body>
 

@@ -1,5 +1,6 @@
 <?php include_once 'php_action/create.php'; ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,7 +12,7 @@
 <body>
     <div class="container">
         <h2 class="title-cadastro">Cadastro de Clientes</h2>
-        <form action="php_action/insertC.php" method="POST" class="form-cadastro">
+        <form method="POST" class="form-cadastro">
             <div class="form-group">
                 <label for="nome">Nome: </label>
                 <input type="text" id="nome" name="nome" placeholder="Insira seu Nome" required>
